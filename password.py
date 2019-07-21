@@ -5,5 +5,5 @@ while x < 3:
 		print('登入成功')
 		break
 	else:
-		print('錯誤')
+		print('密碼錯誤!,還有', 2-x, '次機會')
 		x = x + 1
